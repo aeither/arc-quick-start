@@ -2,7 +2,7 @@
 pragma solidity ^0.8.30;
 
 contract HelloArchitect {
-    string private greeting;
+    string public greeting;
 
     // Event emitted when the greeting is changed
     event GreetingChanged(string newGreeting);
